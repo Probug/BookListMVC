@@ -1,0 +1,71 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/proper/asp_tutorials/asp_MVC/BookListMVC/BookListMVC.csproj": {}
+  },
+  "projects": {
+    "/home/proper/asp_tutorials/asp_MVC/BookListMVC/BookListMVC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/proper/asp_tutorials/asp_MVC/BookListMVC/BookListMVC.csproj",
+        "projectName": "BookListMVC",
+        "projectPath": "/home/proper/asp_tutorials/asp_MVC/BookListMVC/BookListMVC.csproj",
+        "packagesPath": "/home/proper/.nuget/packages/",
+        "outputPath": "/home/proper/asp_tutorials/asp_MVC/BookListMVC/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/proper/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.10.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
